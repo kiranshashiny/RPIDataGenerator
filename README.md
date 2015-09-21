@@ -2,7 +2,7 @@ C Client Library to generate some random numbers and publish to IBM IoTF.
 ========================================================================
 
 Prerequisites :
---------------
+---------------
 
 You have installed wiringPi from git hub.
 
