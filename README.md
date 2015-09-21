@@ -1,9 +1,35 @@
-This repository is for a small C code to generate some random numbers and publish it to IBM IotF.
+C Client Library to generate some random numbers and publish to IBM IoTF.
+========================================================================
 
-It is assumed that you have installed wiringPi available in github before running the below commands.
+Prerequisites :
+--------------
 
-cd codedir
+You have installed wiringPi from git hub.
 
-./make
+You have registered the Raspberry Pi on IBM IoTF.
+
+This allows you to publish and subscribe to events from IBM IoTF and also enables you to turn LED or external devices from Raspberry Pi GPIO pins.
+
+Download this code and run this on the Raspberry Pi.
+
+Code was tested on Raspberry Pi Model B.
+
+
+Usage
+-----
+
+[root@localhost ~]# cd codedir
+
+[root@localhost ~]# make
+
+
+This sample application demonstrates the Internet of Things Foundation service. The sample application connects IBM IoTF and sends event data. 
+
+This sample is a great place to get started with the Internet of Things Foundation Service using Quickstart.
+
+                pi@raspberrypi $ sudo ./sensor
+                 Calling connectiotf()
+                Connecting to registered service with org 8ubmht
+                the auth token being used is [kg&z3L4pxKd?_BRtZm]
 
 
