@@ -83,7 +83,7 @@ int main(void)
 
         //char *configFilePath = "./device.cfg";
         //rc = initialize_configfile(&client, configFilePath);
-	rc = initialize(&client,"8ubmht","iotdevice","b827eb984666","token","kg&z3L4pxKd?_BRtZm");
+	rc = initialize(&client,"8ubmht","iotdevice","b827eb984666","token","kg&z3L4pxKd?_BRXXX");
 
 
         if(rc != SUCCESS){
