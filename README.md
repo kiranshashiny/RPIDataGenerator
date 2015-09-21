@@ -30,7 +30,7 @@ Save and exit.
 
 This sample application demonstrates the Internet of Things Foundation service. The sample application connects IBM IoTF and sends event data. 
 
-This sample is a great place to get started with the Internet of Things Foundation Service using Quickstart.
+This sample is a great place to get started with the Internet of Things Foundation Service by learning how to subscribe and publish events.
 
                 pi@raspberrypi $ sudo ./sensor
                  Calling connectiotf()
