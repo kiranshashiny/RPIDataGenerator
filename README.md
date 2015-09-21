@@ -20,7 +20,9 @@ Usage
 
 [root@localhost ~]# cd codedir
 
-[root@localhost ~]# vi temp_rh_sensor.c
+[root@localhost ~]# vi sensor.c
+Edit the part of code to reflect the correct organization, device id, and authorization code.
+Save and exit.
 
 
 [root@localhost ~]# make
