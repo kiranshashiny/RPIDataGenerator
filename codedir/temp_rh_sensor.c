@@ -27,13 +27,22 @@ void myCallback (char* commandName, char* format, void* payload)
         //printf("format : %s\n", format);
         //printf("Payload is : %s\n", (char *)payload);
 
+	// Configure pin on Raspberry Pi as output to enable a motor, light, led or a relay etc.
+
 	pinMode(PIN11,OUTPUT);
+	
+	// This is only a sample code of what can be received from IBM IoTF.
+	// sample of a payload is a string in my case.
 
 	if ( strncmp (payload, "safe",4 )== 0 ) {
-		printf ("  received safe\n ");
+ 		// Take appropriate action.
+		// Here I am turning LED on Pin 11 on Raspberry Pi OFF.
+		printf ("  received safe string from IBM IoTF.\n ");
 		digitalWrite(PIN11,LOW);
 	} else {
-		printf ("  received critical\n ");
+		printf (" Indicate an appropriate payload received from IBM IoTF here.\n ");
+ 		// Take appropriate action.
+		// Here I am turning LED on Pin 11 on Raspberry Pi ON.
 		digitalWrite(PIN11,HIGH);
 	}
         printf("------------------------------------\n" );
