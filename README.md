@@ -20,7 +20,7 @@ Usage
 
 [root@localhost ~]# cd codedir
 
-[root@localhost ~]# vi sensor.c
+[root@localhost ~]# vi sensor.c <br>
 Edit the part of code to reflect the correct organization, device id, and authorization code.
 Save and exit.
 
