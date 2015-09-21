@@ -20,6 +20,9 @@ Usage
 
 [root@localhost ~]# cd codedir
 
+[root@localhost ~]# vi temp_rh_sensor.c
+
+
 [root@localhost ~]# make
 
 
@@ -30,6 +33,6 @@ This sample is a great place to get started with the Internet of Things Foundati
                 pi@raspberrypi $ sudo ./sensor
                  Calling connectiotf()
                 Connecting to registered service with org 8ubmht
-                the auth token being used is [kg&z3L4pxKd?_BRtZm]
+                the auth token being used is [kg&z3L4pxKd?_BRXXX]
 
 
