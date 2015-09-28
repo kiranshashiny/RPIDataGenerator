@@ -16,7 +16,7 @@ Code was tested on Raspberry Pi Model B.
 
 
 Usage
-=-----
+-----
 
 [root@localhost ~]# cd codedir
 
